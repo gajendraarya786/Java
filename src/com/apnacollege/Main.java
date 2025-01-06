@@ -99,5 +99,16 @@ public class Main{
         System.out.println(div);
         System.out.println(modulo);
 
+        int number = 1;
+        number++; //unary operator
+        System.out.println(number);
+
+        // Maths class
+        //5,6
+        // to find which is greater among both of them we use a class Math.max(a,b)
+        System.out.println(Math.max(5,6));
+
+        //Random function which returns a random value between the range 0.0 to 1.0
+        System.out.println(Math.floor((Math.random() * 5) +1));
     }
 }
