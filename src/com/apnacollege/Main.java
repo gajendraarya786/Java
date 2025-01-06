@@ -36,5 +36,15 @@ public class Main{
         String nameX = "Gajendra";
         String nameY = nameX.replace('a', 'b');
         System.out.println(nameY);
+
+        //substring
+        System.out.println(nameX.substring(0,3));
+
+        // arrays
+        int[] marks = new int[3];
+        marks[0] = 85;
+        marks[1]= 97;
+        marks[2]= 88;
+        System.out.println(marks[0]);
     }
 }
