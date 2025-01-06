@@ -1,5 +1,9 @@
 package com.apnacollege;
+
+import java.util.Arrays;
+
 public class Main{
+
     public static void main(String[] args){
         // our first program
         System.out.println("Hello Java");
@@ -44,7 +48,17 @@ public class Main{
         int[] marks = new int[3];
         marks[0] = 85;
         marks[1]= 97;
-        marks[2]= 88;
+        marks[2]= 72;
+        System.out.println(marks[1]);
+
+        //length
+        System.out.println( marks.length);
+
+        //value of 0th index before sorting
         System.out.println(marks[0]);
+        //sort
+        Arrays.sort(marks);
+        System.out.println(marks[0]);
+
     }
 }
