@@ -1,5 +1,6 @@
 package com.apnacollege;
 
+//To use Arrays.sort method we have to include the package java.util.Arrrays
 import java.util.Arrays;
 
 public class Main{
