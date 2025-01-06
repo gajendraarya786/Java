@@ -60,5 +60,15 @@ public class Main{
         Arrays.sort(marks);
         System.out.println(marks[0]);
 
+        //initializing a new array
+        int[] marks2 = {97,85,71};
+
+        //initializing marks of 2 students using 2-D array
+        int[][] finalMarks = {{97,98,89}, {71,88,94}};
+
+        //To print marks of 1st student in 1st subject
+        System.out.println(finalMarks[0][0]);
+        //similarily
+        System.out.println(finalMarks[1][0]);
     }
 }
