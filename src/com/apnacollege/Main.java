@@ -71,5 +71,33 @@ public class Main{
         System.out.println(finalMarks[0][0]);
         //similarily
         System.out.println(finalMarks[1][0]);
+
+        //casting
+        double price = 100.00;
+        double finalPrice = 100.00 + 18;
+        System.out.println(finalPrice);
+
+        int p = 100;
+        int fp = p + (int) 18.18;
+        // when double is casted in int type the  all the decimals are removed
+        System.out.println(fp);
+
+        //constants
+        int age2 = 30;
+        age2 = 31;
+        age2 = 32;
+
+        //we assign the keyword final to the variable to make it constant
+       final float PI = 3.14F;
+
+
+       //Operators
+        float a = 1;
+        float b = 2;
+        float div = a/b;
+        float modulo = 1%2;
+        System.out.println(div);
+        System.out.println(modulo);
+
     }
 }
