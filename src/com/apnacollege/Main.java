@@ -2,6 +2,7 @@ package com.apnacollege;
 
 //To use Arrays.sort method we have to include the package java.util.Arrrays
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main{
 
@@ -110,5 +111,17 @@ public class Main{
 
         //Random function which returns a random value between the range 0.0 to 1.0
         System.out.println(Math.floor((Math.random() * 5) +1));
+
+        // How to take input
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Input your age");
+        int age3 = sc.nextInt();
+//        System.out.println(age3);
+        if(age3 >= 18) {
+            System.out.println("Adult");
+        }
+            else{
+                System.out.println("Not adult");
+            }
+        }
     }
-}
