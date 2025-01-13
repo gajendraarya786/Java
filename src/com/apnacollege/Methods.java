@@ -8,6 +8,8 @@ public class Methods{
     public static void main(String[] args){
         // Methods or functions
           printJava();
+          printJava();
+          printJava();
     }
 
 }
