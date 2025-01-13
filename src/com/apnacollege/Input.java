@@ -18,8 +18,21 @@ public class Input {
         else {
             System.out.println("Not Adult");
         }
+        //Comparison operators
+        //a==b
+        //a!=b
+        //a<b
+        //a>b
+        //a >=b
 
-
+        //logical and: &&
+        //logical or: ||
+        int a = 60;
+        int b = 40;
+            if (a < 50 || b < 50) {
+                System.out.println("Both less than 50");
+            }
 
     }
+
 }
