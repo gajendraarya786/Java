@@ -9,7 +9,7 @@ public class Main{
     public static void main(String[] args){
         // our first program
         System.out.println("Hello Java");
-        System.out.println("");
+        System.out.println("I m Gajendra");
 
         // variables
         String name = "Aman";
