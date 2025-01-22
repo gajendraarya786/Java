@@ -95,6 +95,7 @@ public class Main{
        //Operators
         float a = 1;
         float b = 2;
+        float c = 3;
         float div = a/b;
         float modulo = 1%2;
         System.out.println(div);
